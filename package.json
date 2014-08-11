@@ -1,0 +1,32 @@
+{
+  "name": "ng-workshop",
+  "version": "0.0.1",
+  "description": "This is a simple AngularJS app",
+  "private": true,
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dimoreira/ng-workshop.git"
+  },
+  "keywords": [
+    "angularjs",
+    "grunt"
+  ],
+  "author": "Diego Moreira",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.8.2",
+    "body-parser": "^1.6.2",
+    "morgan": "^1.2.2",
+    "stylus": "^0.47.3",
+    "jade": "^1.5.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-stylus": "^0.18.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-uglify": "^0.5.1"
+  }
+}
